@@ -1,7 +1,10 @@
 body h1 {
     background-color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
-}
+   }
+  
+
 div  > a{
     font-size: medium;
 }
@@ -21,7 +24,7 @@ a:visited {
 }
 a:hover {
     font-weight: bolder;
-}
+    }
 a:active {
     font-size: 0.75em;
 }
@@ -42,4 +45,13 @@ a:active {
     justify-items: center;
     align-items: center; 
 }
-
+#a:hover {
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animation {
+    0% {width: 100em;}
+    50% {width: 500em;}
+    100% {width: 100em;}
+}
